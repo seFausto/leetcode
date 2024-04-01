@@ -8,9 +8,9 @@ using System.Text.Json.Serialization;
 
 Console.WriteLine("Hello, World!");
 
-var s = new RegularExpressionMatching();
+var s = new MinimumSwapsToMakeStringsEqual();
 
-var r = s.IsMatch("ab", ".*c");
+var r = s.MinimumSwap("xx", "yy");
 
 Console.WriteLine(r);
 
